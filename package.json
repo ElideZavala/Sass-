@@ -1,0 +1,17 @@
+{
+  "name": "method_one-node-sass",
+  "version": "1.0.0",
+  "description": "The Sass Chapter",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass sass/style.scss css/style.css -w"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "Elide Zavala Vinagre",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
