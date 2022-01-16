@@ -1,6 +1,6 @@
-body {
-	background-color: red;
-}
+// body {
+// 	background-color: red;
+// }
 
 // Lesson 1 - 3 
 /* 
@@ -12,11 +12,37 @@ Sass Setup using NPM through node-sass
 .sass
 // Indented SyntaxS
 */
-h1 {
-	color: red;
-}
+// h1 {
+// 	color: red;
+// }
 
-h2 {
-	color: blue;
-	line-height: 30px;
+// h2 {
+// 	color: blue;
+// 	line-height: 30px;
+// }
+
+// CSS Variables
+// html {
+// 	--color-primary: yellowgreen;
+// }
+
+// body {
+// 	background-color: var(--color-primary);
+// }
+
+// Sass Variables
+// $color-primary: rgb(226, 157, 67);
+
+// // // ****************** END *******************
+
+// body {
+// 	background-color: $color-primary;
+// }
+
+$color-primary: #303960;
+$color-secondary: #ea9a96;
+$color-tertiary: #f8b24f;
+
+body {
+	background-color: $color-secondary;
 }
