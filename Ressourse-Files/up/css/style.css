@@ -8,4 +8,16 @@ Sass Setup using NPM through node-sass
 body {
   background-color: #ea9a96;
 }
+
+section {
+  background-color: #303960;
+}
+
+h2 {
+  color: #f8b24f;
+}
+
+p {
+  color: #fff;
+}
 /*# sourceMappingURL=style.css.map */
