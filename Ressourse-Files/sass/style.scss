@@ -105,22 +105,44 @@ body {
 
 // Classes Nesting
 
+// .section {
+// 	background-color: map-get($colors, color-primary);
+// 	padding: 40px;
+
+// 	.section__content {
+// 		background-color: map-get($colors, color-secondary);
+
+// 		.section__content--title {
+// 			font-size: 20px;
+// 			padding: 20px 0;
+// 			color: map-get($colors, color-white);
+// 		}
+
+// 		.section__content--para {
+// 			font-size: 25px;
+// 			padding: 20px 0;
+// 		}
+// 	}
+// }
+
+// Using Classes + &
 .section {
-	background-color: map-get($colors, color-primary);
-	padding: 40px;
-
-	.section__content {
-		background-color: map-get($colors, color-secondary);
-
-		.section__content--title {
-			font-size: 20px;
-			padding: 20px 0;
-			color: map-get($colors, color-white);
+		background-color: map-get($colors, color-primary);
+		padding: 40px;
+	
+		&__content {
+			background-color: map-get($colors, color-secondary);
+	
+			// Interpolation
+			#{&}--title {
+				font-size: 20px;
+				padding: 20px 0;
+				color: map-get($colors, color-white);
+			}
+	
+			&--para {
+				font-size: 25px;
+				padding: 5rem ;
+			}
 		}
-
-		.section__content--para {
-			font-size: 25px;
-			padding: 20px 0;
-		}
-	}
 }
