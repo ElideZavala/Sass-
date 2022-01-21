@@ -80,14 +80,27 @@ body {
 	background-color: map-get($colors, color-primary);
 }
 
+// Element Nesting
+
+// section { 
+// 	background-color: map-get($colors, color-secondary);
+
+// 	h2 {
+// 		color: map-get($colors, color-white);
+// 	}
+// }
+
+
 section { 
 	background-color: map-get($colors, color-secondary);
+}
 
-	h2 {
-		color: map-get($colors, color-white);
-	}
+h2 {
+	color: map-get($colors, color-white);
 }
 
 p {
 	color: map-get($colors, color-tertiary)
 }
+
+// Classes Nesting
