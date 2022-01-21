@@ -42,6 +42,29 @@ Sass Setup using NPM through node-sass
 /*
 Sass Maps => object => key-value pairs
 */
+// $colors: (
+// 	"color-primary": #303960,
+// 	"color-secondary": #ea9a96,
+// 	"color-tertiary": #f8b24f,
+// 	"color-white": #fff,
+// );
+
+// body {
+// 	background-color: map-get($colors, color-secondary3);
+// }
+
+// section { 
+// 	background-color: map-get($colors, color-primary);
+// }
+
+// h2 {
+// 	color: map-get($colors, color-secondary);
+// }
+
+// p {
+// 	color: map-get($colors, color-tertiary)
+// }
+
 $colors: (
 	"color-primary": #303960,
 	"color-secondary": #ea9a96,
@@ -49,18 +72,22 @@ $colors: (
 	"color-white": #fff,
 );
 
+// body {
+// 	background-color: map-get($colors, color-secondary3);
+// }
+
 body {
-	background-color: $color-secondary;
+	background-color: map-get($colors, color-primary);
 }
 
 section { 
-	background-color: map-get();
-}
+	background-color: map-get($colors, color-secondary);
 
-h2 {
-	color: $color-tertiary;
+	h2 {
+		color: map-get($colors, color-white);
+	}
 }
 
 p {
-	color: $color-white;
+	color: map-get($colors, color-tertiary)
 }
