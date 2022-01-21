@@ -12,15 +12,23 @@ body {
   background-color: #303960;
 }
 
-section {
+.section {
+  background-color: #303960;
+  padding: 40px;
+}
+
+.section .section__content {
   background-color: #ea9a96;
 }
 
-h2 {
+.section .section__content .section__content--title {
+  font-size: 20px;
+  padding: 20px 0;
   color: #fff;
 }
 
-p {
-  color: #f8b24f;
+.section .section__content .section__content--para {
+  font-size: 25px;
+  padding: 20px 0;
 }
 /*# sourceMappingURL=style.css.map */

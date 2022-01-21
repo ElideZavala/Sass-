@@ -91,16 +91,36 @@ body {
 // }
 
 
-section { 
-	background-color: map-get($colors, color-secondary);
-}
+// section { 
+// 	background-color: map-get($colors, color-secondary);
+// }
 
-h2 {
-	color: map-get($colors, color-white);
-}
+// h2 {
+// 	color: map-get($colors, color-white);
+// }
 
-p {
-	color: map-get($colors, color-tertiary)
-}
+// p {
+// 	color: map-get($colors, color-tertiary)
+// }
 
 // Classes Nesting
+
+.section {
+	background-color: map-get($colors, color-primary);
+	padding: 40px;
+
+	.section__content {
+		background-color: map-get($colors, color-secondary);
+
+		.section__content--title {
+			font-size: 20px;
+			padding: 20px 0;
+			color: map-get($colors, color-white);
+		}
+
+		.section__content--para {
+			font-size: 25px;
+			padding: 20px 0;
+		}
+	}
+}
