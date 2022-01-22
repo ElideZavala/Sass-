@@ -1,0 +1,14 @@
+// Lesson 10 => Sass Functions
+
+@function color($color-name) {
+	@return map-get(&map: , $key: )
+}
+
+.section {
+		background-color: map-get($colors, color-primary);
+		padding: 40px;
+	
+		&__content {
+			background-color: map-get($colors, color-secondary);
+		}
+}
