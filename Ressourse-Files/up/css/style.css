@@ -12,23 +12,7 @@ body {
   background-color: #303960;
 }
 
-.section {
-  background-color: #303960;
-  padding: 40px;
-}
-
-.section__content {
-  background-color: #ea9a96;
-}
-
-.section__content .section__content--title {
-  font-size: 20px;
-  padding: 20px 0;
-  color: #fff;
-}
-
-.section__content--para {
-  font-size: 25px;
-  padding: 5rem;
-}
+/* 
+	Partials and Imports (at import rule => @import)
+*/
 /*# sourceMappingURL=style.css.map */

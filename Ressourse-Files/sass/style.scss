@@ -126,23 +126,31 @@ body {
 // }
 
 // Using Classes + &
-.section {
-		background-color: map-get($colors, color-primary);
-		padding: 40px;
+// .section {
+// 		background-color: map-get($colors, color-primary);
+// 		padding: 40px;
 	
-		&__content {
-			background-color: map-get($colors, color-secondary);
+// 		&__content {
+// 			background-color: map-get($colors, color-secondary);
 	
-			// Interpolation
-			#{&}--title {
-				font-size: 20px;
-				padding: 20px 0;
-				color: map-get($colors, color-white);
-			}
+// 			// Interpolation
+// 			#{&}--title {
+// 				font-size: 20px;
+// 				padding: 20px 0;
+// 				color: map-get($colors, color-white);
+// 			}
 	
-			&--para {
-				font-size: 25px;
-				padding: 5rem ;
-			}
-		}
-}
+// 			&--para {
+// 				font-size: 25px;
+// 				padding: 5rem ;
+// 			}
+// 		}
+// }
+
+// Lesson 9 
+
+/* 
+	Partials and Imports (at import rule => @import)
+*/
+
+@import 'reset'
