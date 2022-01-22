@@ -25,11 +25,28 @@ body {
 }
 
 .section {
-  background-color: #303960;
+  background-color: #f8b24f;
   padding: 40px;
 }
 
 .section__content {
   background-color: #ea9a96;
+}
+
+.section__content--para {
+  color: #fff;
+}
+
+.section {
+  background-color: #f8b24f;
+  padding: 40px;
+}
+
+.section__content {
+  background-color: #ea9a96;
+}
+
+.section__content--para {
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
