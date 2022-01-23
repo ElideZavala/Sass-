@@ -37,16 +37,23 @@ body {
   color: #fff;
 }
 
-.section {
-  background-color: #f8b24f;
-  padding: 40px;
+body {
+  background-color: #82d802;
+  color: red;
 }
 
-.section__content {
-  background-color: #ea9a96;
+.section-1 {
+  background-color: #303960;
 }
 
-.section__content--para {
-  color: #fff;
+.section-1__content, .section-2__content {
+  padding: 20px;
+  color: #ea9a96;
+}
+
+.section-1__content--title, .section-1__content--para, .section-2__content--para {
+  margin: 15px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,1 +1,48 @@
 // Lesson 11 => Sass Mixins
+
+// //Exmaple 1 => Sharing Styles
+// @mixin section-styling($direction) {
+// 	display: flex;
+// 	align-items: center;
+// 	justify-content: center;
+// 	padding: 50px;
+// 	flex-direction: $direction;
+// }
+
+// .section-1 {
+// 	background-color: color(color-tertiary);
+// 	@include section-styling(row);
+// 	margin-bottom: 10px;
+
+// 	&__content:last-child {
+// 		margin-left: 200px;
+// 	}
+// }
+
+// .section-2 {
+// 	background-color: color(color-secondary);
+
+// 	@include section-styling(column);
+
+// 	&__content:last-child {
+// 		margin-left: 2px;
+// 	}
+// }
+
+// Example 2
+// $bpDesktop: 1000px;
+// @mixin media-desktop {
+// 	@media screen and (max-width: $bpDesktop) {
+// 		@content;
+// 	}
+// }
+
+// .section-1 {
+// 	@include media-desktop {
+// 		flex-direction: column;
+
+// 		&__content:last-child {
+// 			margin-left: 0;
+// 		}
+// 	}
+// }
