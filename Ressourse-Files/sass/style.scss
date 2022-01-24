@@ -76,9 +76,9 @@ $colors: (
 // 	background-color: map-get($colors, color-secondary3);
 // }
 
-body {
-	background-color: map-get($colors, color-primary);
-}
+// body {
+// 	background-color: map-get($colors, color-primary);
+// }
 
 // Element Nesting
 
@@ -153,9 +153,10 @@ body {
 	Partials and Imports (at import rule => @import)
 */
 
-@import "reset";
+// @import "reset";
 
-@import "lesson-10-functions";
-@import "lesson-11-mixins";
-@import "lesson-13-extend";
+// @import "lesson-10-functions";
+// @import "lesson-11-mixins";
+// @import "lesson-13-extend";
+@import "lesson-14-each";
 

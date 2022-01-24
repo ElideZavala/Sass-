@@ -1,0 +1,57 @@
+// Lesson 14 -> @each Rule
+section {
+	div {
+		height: 50rem;
+		width: 50rem;
+	}
+}
+
+// section {
+// 	.ballet {
+// 		background-image: url("../img/universo.jpg");
+// 		background: no-repeat;
+// 		background-size: cover;
+// 		background-position: center;
+// 	}
+
+// 	.cat {
+// 		background-image: url("../img/mi\ amor.jpg");
+// 		background: no-repeat;
+// 		background-size: cover;
+// 		background-position: center;
+
+// 	}
+// 	.gramophone {
+// 		background-image: url("../img/Screenshot_2020-11-20-11-59-37-486_com.instagram.android.jpg");
+// 		background: no-repeat;
+// 		background-size: cover;
+// 		background-position: center;
+
+// 	}
+// 	.sparrow {
+// 		background-image: url("../img/eoe.jpg");
+// 		background: no-repeat;
+// 		background-size: cover;
+// 		background-position: center;
+// 	}
+// 	.sunset {
+// 		background-image: url("../img/Mucha\ gente\ tuvo\ que\ cambiar\ sus\ computadoras\ estos\ meses.jfif");
+// 		background: no-repeat;
+// 		background-size: cover;
+// 		background-position: center;
+// 	}
+// 	.turkey {
+// 		background-image: url("../img/90948928_1636352696542799_6025612307655032832_o.jpg");
+// 		background: no-repeat;
+// 		background-size: cover;
+// 		background-position: center;
+// 	}
+// }
+
+// Method 2 
+$bg-pics: (ballet, cat, gramophone, sparrow, sunset, turkey);
+@each $bg-divs in $bg-pics {
+	.#{$bg-divs} {
+		background-image: url('../img/eoe.jpg');
+	}
+}

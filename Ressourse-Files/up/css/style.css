@@ -8,47 +8,35 @@ Sass Setup using NPM through node-sass
 /*
 Sass Maps => object => key-value pairs
 */
-body {
-  background-color: #303960;
-}
-
 /* 
 	Partials and Imports (at import rule => @import)
 */
-*,
-*::before,
-*::after {
-  padding: 0;
-  margin: 0;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+section div {
+  height: 50rem;
+  width: 50rem;
 }
 
-.section {
-  background-color: #f8b24f;
-  padding: 40px;
+.ballet {
+  background-image: url("../img/eoe.jpg");
 }
 
-.section__content {
-  background-color: #ea9a96;
+.cat {
+  background-image: url("../img/eoe.jpg");
 }
 
-.section__content--para {
-  color: #fff;
+.gramophone {
+  background-image: url("../img/eoe.jpg");
 }
 
-.section-1__content--title, .section-1__content--para {
-  margin: 15px 0;
-  font-family: Arial, Helvetica, sans-serif;
-  letter-spacing: 2px;
+.sparrow {
+  background-image: url("../img/eoe.jpg");
 }
 
-.section-1 {
-  background-color: #ea9a96;
+.sunset {
+  background-image: url("../img/eoe.jpg");
 }
 
-.section-1__content {
-  padding: 20px;
-  color: #fff;
+.turkey {
+  background-image: url("../img/eoe.jpg");
 }
 /*# sourceMappingURL=style.css.map */
