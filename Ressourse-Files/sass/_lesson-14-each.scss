@@ -49,9 +49,19 @@ section {
 // }
 
 // Method 2 
-$bg-pics: (ballet, cat, gramophone, sparrow, sunset, turkey);
-@each $bg-divs in $bg-pics {
-	.#{$bg-divs} {
+// $bg-pics: (ballet, cat, gramophone, sparrow, sunset, turkey);
+// @each $bg-divs in $bg-pics {
+// 	.#{$bg-divs} {
+// 		background-image: url('../img/#{$bg-divs}.jpg');
+// 		background-repeat: no-repeat;
+// 		background-size: center;
+// 		background-position: center;
+// 	}
+// }
+
+// Method -2 => the short way 
+@each $bg-divs in (ballet, cat, gramophone, sparrow, sunset, turkey) {
+	.#{$bg-divs} {                             
 		background-image: url('../img/#{$bg-divs}.jpg');
 		background-repeat: no-repeat;
 		background-size: center;
