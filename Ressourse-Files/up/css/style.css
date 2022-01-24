@@ -17,26 +17,44 @@ section div {
 }
 
 .ballet {
-  background-image: url("../img/eoe.jpg");
+  background-image: url("../img/ballet.jpg");
+  background-repeat: no-repeat;
+  background-size: center;
+  background-position: center;
 }
 
 .cat {
-  background-image: url("../img/eoe.jpg");
+  background-image: url("../img/cat.jpg");
+  background-repeat: no-repeat;
+  background-size: center;
+  background-position: center;
 }
 
 .gramophone {
-  background-image: url("../img/eoe.jpg");
+  background-image: url("../img/gramophone.jpg");
+  background-repeat: no-repeat;
+  background-size: center;
+  background-position: center;
 }
 
 .sparrow {
-  background-image: url("../img/eoe.jpg");
+  background-image: url("../img/sparrow.jpg");
+  background-repeat: no-repeat;
+  background-size: center;
+  background-position: center;
 }
 
 .sunset {
-  background-image: url("../img/eoe.jpg");
+  background-image: url("../img/sunset.jpg");
+  background-repeat: no-repeat;
+  background-size: center;
+  background-position: center;
 }
 
 .turkey {
-  background-image: url("../img/eoe.jpg");
+  background-image: url("../img/turkey.jpg");
+  background-repeat: no-repeat;
+  background-size: center;
+  background-position: center;
 }
 /*# sourceMappingURL=style.css.map */

@@ -52,6 +52,9 @@ section {
 $bg-pics: (ballet, cat, gramophone, sparrow, sunset, turkey);
 @each $bg-divs in $bg-pics {
 	.#{$bg-divs} {
-		background-image: url('../img/eoe.jpg');
+		background-image: url('../img/#{$bg-divs}.jpg');
+		background-repeat: no-repeat;
+		background-size: center;
+		background-position: center;
 	}
 }
