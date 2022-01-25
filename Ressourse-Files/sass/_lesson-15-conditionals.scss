@@ -13,6 +13,22 @@
 	}
 }
 
+@mixin body($size) {
+	width: $size;
+
+	@if $size < 500px {
+		background-color: black;
+	} @else if $size <= 550px {
+		background-color: red;
+	} @else {
+		background-color: greenyellow;
+	}
+}
+
+body {
+	@include body(400px);
+}
+
 section {
-	@include section(100px);
+	@include section(250px);
 }
