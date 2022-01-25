@@ -24,10 +24,152 @@ Sass Maps => object => key-value pairs
   color: #fff;
 }
 
+.section-1__content--title, .section-1__content--para {
+  margin: 15px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 2px;
+}
+
+.section-1 {
+  background-color: #ea9a96;
+}
+
+.section-1__content {
+  padding: 20px;
+  color: #fff;
+}
+
+section div {
+  height: 50rem;
+  width: 50rem;
+}
+
+.ballet {
+  background-image: url("../img/ballet.jpg");
+  background-repeat: no-repeat;
+  background-size: center;
+  background-position: center;
+}
+
+.cat {
+  background-image: url("../img/cat.jpg");
+  background-repeat: no-repeat;
+  background-size: center;
+  background-position: center;
+}
+
+.gramophone {
+  background-image: url("../img/gramophone.jpg");
+  background-repeat: no-repeat;
+  background-size: center;
+  background-position: center;
+}
+
+.sparrow {
+  background-image: url("../img/sparrow.jpg");
+  background-repeat: no-repeat;
+  background-size: center;
+  background-position: center;
+}
+
+.sunset {
+  background-image: url("../img/sunset.jpg");
+  background-repeat: no-repeat;
+  background-size: center;
+  background-position: center;
+}
+
+.turkey {
+  background-image: url("../img/turkey.jpg");
+  background-repeat: no-repeat;
+  background-size: center;
+  background-position: center;
+}
+
+body {
+  width: 400px;
+  background-color: black;
+}
+
+section {
+  width: 250px;
+  height: 250px;
+  background-color: #ea9a96;
+}
+
+body {
+  background-color: #303960;
+}
+
 .gallery div[class^=gallery__content] {
   height: 30rem;
   width: 30rem;
 }
 
-@whi;
+/* Mostraremos solo una imagen en cualquiera de las posiciones */
+/* Mostraremos imagenes diferentes e todas las posiciones */
+.gallery__content-1 {
+  background-image: url("../img/gallery-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.gallery__content-2 {
+  background-image: url("../img/gallery-2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.gallery__content-3 {
+  background-image: url("../img/gallery-3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.gallery__content-4 {
+  background-image: url("../img/gallery-4.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.gallery__content-5 {
+  background-image: url("../img/gallery-5.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.gallery__content-6 {
+  background-image: url("../img/gallery-6.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.gallery div[class^=gallery__content] {
+  height: 30rem;
+  width: 30rem;
+}
+
+.gallery__content-1 {
+  background-image: url("../img/gallery-1.jpg");
+}
+
+.gallery__content-2 {
+  background-image: url("../img/gallery-2.jpg");
+}
+
+.gallery__content-3 {
+  background-image: url("../img/gallery-3.jpg");
+}
+
+.gallery__content-4 {
+  background-image: url("../img/gallery-4.jpg");
+}
+
+.gallery__content-5 {
+  background-image: url("../img/gallery-5.jpg");
+}
+
+.gallery__content-6 {
+  background-image: url("../img/gallery-6.jpg");
+}
 /*# sourceMappingURL=style.css.map */

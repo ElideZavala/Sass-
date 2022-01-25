@@ -9,6 +9,7 @@
 $img: 1;
 @while $img < 7 {
 	.gallery__content-#{$img} {
-		background-image: url('../img/gallery-2.jpg');
+		background-image: url('../img/gallery-#{$img}.jpg');
 	}
-}
+	$img: $img + 1;
+}		
