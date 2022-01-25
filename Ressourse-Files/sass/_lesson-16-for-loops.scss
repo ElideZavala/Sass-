@@ -1,0 +1,12 @@
+// Lessson 16 => Sass For Loops => @for Rule
+body {
+	background-color: color(color-primary);
+}
+
+.gallery {
+	div[class^=gallery__content] {
+		height: 30rem;
+		width: 30rem;
+		background-color: #fff;
+	}
+}

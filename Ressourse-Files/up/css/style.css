@@ -24,61 +24,13 @@ Sass Maps => object => key-value pairs
   color: #fff;
 }
 
-section div {
-  height: 50rem;
-  width: 50rem;
-}
-
-.ballet {
-  background-image: url("../img/ballet.jpg");
-  background-repeat: no-repeat;
-  background-size: center;
-  background-position: center;
-}
-
-.cat {
-  background-image: url("../img/cat.jpg");
-  background-repeat: no-repeat;
-  background-size: center;
-  background-position: center;
-}
-
-.gramophone {
-  background-image: url("../img/gramophone.jpg");
-  background-repeat: no-repeat;
-  background-size: center;
-  background-position: center;
-}
-
-.sparrow {
-  background-image: url("../img/sparrow.jpg");
-  background-repeat: no-repeat;
-  background-size: center;
-  background-position: center;
-}
-
-.sunset {
-  background-image: url("../img/sunset.jpg");
-  background-repeat: no-repeat;
-  background-size: center;
-  background-position: center;
-}
-
-.turkey {
-  background-image: url("../img/turkey.jpg");
-  background-repeat: no-repeat;
-  background-size: center;
-  background-position: center;
-}
-
 body {
-  width: 400px;
-  background-color: black;
+  background-color: #303960;
 }
 
-section {
-  width: 250px;
-  height: 250px;
-  background-color: #ea9a96;
+.gallery div[class^=gallery__content] {
+  height: 30rem;
+  width: 30rem;
+  background-color: #fff;
 }
 /*# sourceMappingURL=style.css.map */
