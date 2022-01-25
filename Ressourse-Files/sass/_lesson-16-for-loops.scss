@@ -7,6 +7,26 @@ body {
 	div[class^=gallery__content] {
 		height: 30rem;
 		width: 30rem;
-		background-color: #fff;
 	}
 }
+
+/* Mostraremos solo una imagen en cualquiera de las posiciones */
+// @for $img from 1 through 6 {
+// 	.gallery__content-2 {
+// 		background-image: url('../img/gallery-2.jpg');
+// 		background-position: center;
+// 		background-size: cover;
+// 	} 
+// }
+
+
+/* Mostraremos imagenes diferentes e todas las posiciones */
+@for $img from 1 through 6 {
+	.gallery__content-#{$img} {
+		background-image: url('../img/gallery-#{$img}.jpg');
+		background-position: center;
+		background-size: cover;
+	} 
+}
+
+// #{} => template literal =>  it is used to access the value of any previous variable

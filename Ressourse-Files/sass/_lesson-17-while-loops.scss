@@ -1,0 +1,14 @@
+// lesson 17 => Sass While Loops => @while Rule
+.gallery {
+	div[class^=gallery__content] {
+		height: 30rem; 
+		width: 30rem;
+	}
+}
+
+$img: 1;
+@while $img < 7 {
+	.gallery__content-#{$img} {
+		background-image: url('../img/gallery-2.jpg');
+	}
+}

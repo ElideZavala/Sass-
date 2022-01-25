@@ -24,13 +24,10 @@ Sass Maps => object => key-value pairs
   color: #fff;
 }
 
-body {
-  background-color: #303960;
-}
-
 .gallery div[class^=gallery__content] {
   height: 30rem;
   width: 30rem;
-  background-color: #fff;
 }
+
+@whi;
 /*# sourceMappingURL=style.css.map */
