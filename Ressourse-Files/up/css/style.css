@@ -144,32 +144,11 @@ body {
   background-size: cover;
 }
 
-.gallery div[class^=gallery__content] {
-  height: 30rem;
-  width: 30rem;
-}
-
-.gallery__content-1 {
-  background-image: url("../img/gallery-1.jpg");
-}
-
-.gallery__content-2 {
-  background-image: url("../img/gallery-2.jpg");
-}
-
-.gallery__content-3 {
-  background-image: url("../img/gallery-3.jpg");
-}
-
-.gallery__content-4 {
-  background-image: url("../img/gallery-4.jpg");
-}
-
-.gallery__content-5 {
-  background-image: url("../img/gallery-5.jpg");
-}
-
-.gallery__content-6 {
-  background-image: url("../img/gallery-6.jpg");
+/* Sass Addition Operator */
+/* Regular CSS calc() function Subtraction */
+/* Sass Subtraction Operator */
+h2 {
+  color: aliceblue;
+  font-size: 15;
 }
 /*# sourceMappingURL=style.css.map */
